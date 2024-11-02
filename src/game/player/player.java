@@ -15,8 +15,20 @@ public class player {
    * by landing a critical hit. which deals damage * CD increase
    */
   public int attack(){
+    if(criticalLanded()){
+      return damage * (CD/100);
+    }
     return damage;
   }
+  /*
+   * Player takes damage from an enemy
+   * Player can defend and reduce the damage taken
+   */
+  public void damagetaken(int edamage){
+    health = health - edamage;
+
+  }
+
   public void defend(){
 
   } 
