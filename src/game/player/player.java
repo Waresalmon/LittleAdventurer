@@ -27,4 +27,7 @@ public class player {
   public void flee(){
 
   }
+  private boolean criticalLanded(){
+    return true;
+  }
 }
