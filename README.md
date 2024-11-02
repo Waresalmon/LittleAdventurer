@@ -1,6 +1,9 @@
 ## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Welcome this is an RPG style game thats runs fully in the termial called LittleAdventure. 
+Where you, the adventurer, attempt a beat a dungeon by clear a series of floors. 
+The player (adventurer) has 3 options when facing enemies. Attack, defend, and heal.
+Attack will damage enemies, defend will reduce the damage taken and heal will repelish lost health
 
 ## Folder Structure
 
