@@ -1,10 +1,23 @@
 package game.floors;
 
-import game.enemies.enemies;
-import java.util.ArrayList;
+import game.player.player;
 
-public class Dungeon {
+public class dungeon {
   private boolean bossDefeated;
   private boolean adventurerAlive;
-  ArrayList<enemies> enemies;
+
+
+  public dungeon(){
+    bossDefeated = false;
+    adventurerAlive = true;
+  }
+  public static void main(String[] args) {
+    dungeon current = new f1(); //creates new floor 1
+    player player = new player(); 
+    while(!bossDefeated){
+      
+    }
+
+  }
+
 }
