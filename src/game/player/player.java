@@ -2,6 +2,7 @@ package game.player;
 
 public class player {
   private int health;
+  private int maxhealth;
   private int defence;
   private int damage;
   private int CC; //critical Chance likehood of occuring as a percent
@@ -41,5 +42,15 @@ public class player {
   }
   private boolean criticalLanded(){
     return true;
+  }
+  public String displayhealth(){
+    String s;
+    s = "Current Health: " + String.valueOf(health) + "/" + String.valueOf(maxhealth);
+    return s;
+  }
+  public String optionMenu(){
+    String s;
+    s = " 1 Attack " + " 2 Defend " + "3 Heal";
+    return s;
   }
 }
