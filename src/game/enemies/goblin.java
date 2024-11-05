@@ -2,9 +2,11 @@ package game.enemies;
 
 public class goblin extends enemies {
 
-  goblin(){
+  public goblin(){
+    health = 100;
+    defence = 10;
     CC = 10;
-    CD = 100;
+    CD = 101;
   }
   public int attack(){
     return damage;
